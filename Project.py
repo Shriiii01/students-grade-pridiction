@@ -178,7 +178,7 @@ for a,b in zip(lbls_Test, lbls_predL):
 accL = countL/len(lbls_Test)
 print("\nAccuracy measures using Linear Model Logistic Regression:")
 print(m.classification_report(lbls_Test, lbls_predL),"\n")
-print("\nAccuracy using Linear Model Logistic Regression: ", str(round(accP, 3)), "\n")
+print("\nAccuracy using Linear Model Logistic Regression: ", str(round(accL, 3)), "\n")
 t.sleep(1)
 modelN = nn.MLPClassifier(activation="logistic")
 modelN.fit(feats_Train, lbls_Train)
@@ -248,7 +248,7 @@ if(choice.lower()=="y"):
        sat = 1
     elif (sat == "Bad"):
        sat = 0
-    absc = input("Enter No. of Abscenes(Under-7 or Above-7): ")
+    absc = input("Enter No. of Absences (Under-7 or Above-7): ")
     if (absc == "Under-7"):
        absc = 1
     elif (absc == "Above-7"):
@@ -297,7 +297,7 @@ if(choice.lower()=="y"):
     t.sleep(1)
     print("Using Linear Model Perceptron: ", predP)
     t.sleep(1)
-    print("Using Linear Model Logisitic Regression: ", predL)
+    print("Using Linear Model Logistic Regression: ", predL)
     t.sleep(1)
     print("Using Neural Network MLP Classifier: ", predN)
     print("\nExiting...")

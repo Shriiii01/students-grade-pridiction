@@ -2,8 +2,8 @@
 This is a simple machine learning project using classifiers for predicting factors which affect student grades, using data from CSV file
 
 
-In this Project, a dataset which has students from nationalities, different grade levels and also soe determining factors like,
-number of hands raised, nuber attendances, number of hours studied etc. is used, which is a CSV File.
+In this project, a dataset which has students from different nationalities, grade levels and also some determining factors like
+number of hands raised, number of attendances, hours studied, etc. is used (provided as a CSV file).
 
 
 And a few different classifiers and ML models have been used to get the most accurate predictions of which factors,
